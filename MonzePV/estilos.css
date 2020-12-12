@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root{
+	--color-amarillo : #F5E372;
+	--color-blanco : #FFFFFF;
+	--color-negro : #000000;
+	--color-gris : #E1E3F7;
+	--color-azulc: #CADFF5;
+	--color-rojo: #F01414;
+	--color-azulf: #7398E0;
+}
+
+.mybg_amarillo{
+	background: var(--color-amarillo);
+}
+.mybg_blanco{
+	background: var(--color-blanco);
+}
+.txt_negro{
+	color: var(--color-negro);
+}
+.mybg_negro{
+	background: var(--color-negro);
+}
+.txt_negro:hover{
+	color: var(--color-gris);
+	text-decoration: none;
+}
+.mybg_azulc{
+	background: var(--color-azulc);
+}
+.mybg_gris{
+	background: var(--color-gris);
+}
+.txt_rojo{
+	color: var(--color-rojo);
+}
+.txt_azulc{
+	color: var(--color-azulc);
+}
+.txt_azulf{
+	color: var(--color-azulf);
+}
+.txt_blanco{
+	color: var(--color-blanco);
+}
+
+	
